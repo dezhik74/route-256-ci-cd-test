@@ -16,5 +16,5 @@ on:
 
         - run: npm install
 
-        - name: Run the lint script
+        - name: Run the lint script v2
         - run: npm run lint
