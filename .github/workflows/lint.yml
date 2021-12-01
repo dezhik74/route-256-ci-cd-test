@@ -1,8 +1,8 @@
 name: Linting
 
-  on:
-    push:
-      branches-ignore: main
+on:
+  push:
+    branches-ignore: main
 
   jobs: 
     lint:
@@ -16,5 +16,5 @@ name: Linting
 
         - run: npm install
 
-        - name: Run the lint script v3
+        - name: Run the lint script v5
         - run: npm run lint
