@@ -1,8 +1,8 @@
 {
-  "name": "project_name",
+  "name": "route-256-ci-cd-test",
   "version": "1.0.0",
   "description": "Test GitHub Actions Deploy",
-  "homepage": "https://{login}.github.io/{project_name}",
+  "homepage": "https://dezhik74.github.io/route-256-ci-cd-test",
   "main": "index.js",
   "scripts": {
     "serve": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,styles/**/*",
