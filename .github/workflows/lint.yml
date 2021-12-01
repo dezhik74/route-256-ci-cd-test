@@ -16,5 +16,5 @@ jobs:
 
       - run: npm install
 
-      - name: Run the lint script v6
-      - run: npm run lint
+      - name: Run the lint script v7
+        run: npm run lint
