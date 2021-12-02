@@ -1,0 +1,1 @@
+<img src="https://github.com/dezhik74/route-256-ci-cd-test/workflows/{job-name}/badge.svg?branch={branch-name}">
