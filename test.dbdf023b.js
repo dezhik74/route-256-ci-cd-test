@@ -19,4 +19,4 @@ function r(r,n){if(n<0)return NaN;if(Math.round(n)!=n)return NaN;for(var t=1,u=0
 },{}],"c36W":[function(require,module,exports) {
 var i=require("assert"),n=require("./pow.js");describe("pow",function(){describe("возводит x в степень n",function(){function o(o){var r=o*o*o;it("при возведении "+o+" в степень 3 результат: "+r,function(){i.equal(n(o,3),r)})}for(var r=1;r<=5;r++)o(r)}),it("при возведении в отрицательную степень результат NaN",function(){i(isNaN(n(2,-1)),"pow(2, -1) не NaN")}),it("при возведении в дробную степень результат NaN",function(){i(isNaN(n(2,1.5)),"pow(2, -1.5) не NaN")}),describe("любое число, кроме нуля, в степени 0 равно 1",function(){function o(o){it("при возведении "+o+" в степень 0 результат: 1",function(){i.equal(n(o,0),1)})}for(var r=-5;r<=5;r+=2)o(r)})});
 },{"assert":"DlZn","./pow.js":"hi1B"}]},{},["c36W"], null)
-//# sourceMappingURL=test.a681300e.js.map
+//# sourceMappingURL=test.dbdf023b.js.map
