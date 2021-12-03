@@ -1,3 +1,6 @@
+const assert = require("assert");
+const pow = require("./pow.js");
+
 describe("pow", function () {
 
     describe("возводит x в степень n", function () {
